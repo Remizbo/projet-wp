@@ -1,0 +1,43 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+}
+
+.header {
+background: #0d7619;    
+display:flex;}
+
+/*
+ul { 
+ Pour cibler le ou les éléments html <ul> 
+}
+.nom-classe {
+ Pour cibler le ou les élements qui ont la classe
+ <ul class="nom-classe">
+}
+#nom-id {
+ Pour cibler l'élément qui porte l'id
+ <ul id="nom-id">
+}
+
+Exemple : 
+<ul class="menu">
+    <li class="list">
+.menu .list {
+    
+}
+*/
+
+.menu{
+    display:flex;
+    align-items: center;
+    width:195px;
+    color:white;
+    justify-content: right;
+    float:right;
+    text-decoration: none;
+ 
+    }
